@@ -3,7 +3,7 @@ def create_favorite_hash(color, number)
   # key of color (as a symbol) with value of the color argument
   
   # key of number (as a symbol) with the value of the number argument
-  fav_hash = {color:, number:}
+  fav_hash = {color:color, number:number}
 end
 
 def favorite_color(favorite_list)
